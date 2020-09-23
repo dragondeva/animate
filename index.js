@@ -1006,6 +1006,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,87,42.5);
 		createjs.Ticker.framerate = 24;
 		stage.enableMouseOver(20);
 		
+		this.main_MC.mic.addEventListener("click", rolloverd.bind(this));
 		this.main_MC.mic.addEventListener("rollover", rolloverd.bind(this));
 		this.main_MC.mic.addEventListener("rollout", rolloutd.bind(this));
 		this.main_MC.mic.mouseEnabled = true;
@@ -1065,7 +1066,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/index_atlas_.png?1600849436283", id:"index_atlas_"}
+		{src:"images/index_atlas_.png?1600870266712", id:"index_atlas_"}
 	],
 	preloads: []
 };
